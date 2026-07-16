@@ -1,0 +1,58 @@
+{
+  "total_seconds": 14400,
+  "base_rate": 1.0,
+  "bursts": [
+    {
+      "start": 1800,
+      "ramp": 0,
+      "plateau": 180,
+      "multiplier": 25,
+      "kind": "sudden"
+    },
+    {
+      "start": 6000,
+      "ramp": 30,
+      "plateau": 400,
+      "multiplier": 15,
+      "kind": "ramping"
+    },
+    {
+      "start": 9000,
+      "ramp": 0,
+      "plateau": 120,
+      "multiplier": 40,
+      "kind": "sudden"
+    },
+    {
+      "start": 11000,
+      "ramp": 45,
+      "plateau": 500,
+      "multiplier": 20,
+      "kind": "ramping"
+    },
+    {
+      "start": 13500,
+      "ramp": 0,
+      "plateau": 90,
+      "multiplier": 50,
+      "kind": "sudden"
+    }
+  ],
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "service_time": {
+    "mean": 0.8,
+    "sd": 0.2,
+    "minimum": 0.1
+  },
+  "cold_start": {
+    "mean": 1.0,
+    "sd": 0.3,
+    "minimum": 0.2
+  }
+}
