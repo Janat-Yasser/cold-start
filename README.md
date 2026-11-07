@@ -115,3 +115,7 @@ easy to miss, since the simulation runs fine and produces plausible-looking
   drawn from a real production trace; the qualitative findings (sudden
   vs. ramping bursts behave very differently) should transfer, but exact
   percentages are specific to this workload's parameters.
+
+## License
+
+© 2026 Janat Yasser. All rights reserved. See [LICENSE](LICENSE).
